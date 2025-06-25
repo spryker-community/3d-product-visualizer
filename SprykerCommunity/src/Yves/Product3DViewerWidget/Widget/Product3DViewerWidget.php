@@ -1,6 +1,6 @@
 <?php
 
-namespace Pyz\Yves\Product3DViewerWidget\Widget;
+namespace SprykerCommunity\Yves\Product3DViewerWidget\Widget;
 
 use Generated\Shared\Transfer\Product3DViewTransfer;
 use Spryker\Yves\Kernel\Widget\AbstractWidget;
