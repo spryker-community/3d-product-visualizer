@@ -1,0 +1,26 @@
+{
+  "name": "spryker-community/3d-product-visualizer",
+  "type": "library",
+  "description": "3D product visualizer widget",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.2"
+  },
+    "autoload": {
+        "psr-4": {
+            "SprykerCommunity\\": "SprykerCommunity/src/SprykerCommunity"
+        }
+    },
+    "authors": [
+        {
+            "name": "Damijan Cavar",
+            "email": "damijan.cavar@turbinekreuzberg.com"
+        },
+        {
+            "name": "Hidran Arias",
+            "email":"hidran.arias@spryker.com"
+        }
+    ],
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

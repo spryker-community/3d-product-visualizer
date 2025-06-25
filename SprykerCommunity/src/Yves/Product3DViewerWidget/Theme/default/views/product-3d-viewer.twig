@@ -1,0 +1,22 @@
+{% extends template('widget') %}
+
+{% define data = {
+    modelUrl: _widget.modelUrl
+} %}
+
+{% block body %}
+
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+
+
+    {% include molecule('viewer','@Product3DViewerWidget') %}
+
+    <button id="button-load" class="button button--small" slot="poster">Load 3D Model</button>
+
+    <script>
+        document.querySelector('#button-load').addEventListener('click',
+            () => document.querySelector('#model-viewer').dismissPoster());
+    </script>
+
+{% endblock %}
