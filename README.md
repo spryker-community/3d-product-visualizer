@@ -1,4 +1,3 @@
-Empty template for now
 # Spryker Product 3D Viewer Widget
 
 [![Latest Version](https://img.shields.io/packagist/v/spryker-community/product-3d-viewer.svg?style=flat-square)](https://packagist.org/packages/spryker-community/product-3d-viewer)
